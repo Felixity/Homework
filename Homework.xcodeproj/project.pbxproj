@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		227F33DDD65284DB5704BB14 /* Pods_Homework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA0F076CDDC69041477B0A7 /* Pods_Homework.framework */; };
+		D323A9D71F4F484400B784F4 /* Submissions.json in Resources */ = {isa = PBXBuildFile; fileRef = D323A9D61F4F484400B784F4 /* Submissions.json */; };
+		D323A9D91F4F4D2000B784F4 /* Assignments.json in Resources */ = {isa = PBXBuildFile; fileRef = D323A9D81F4F4D2000B784F4 /* Assignments.json */; };
 		D3CCD2401F4CE9D50033D3E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CCD23F1F4CE9D50033D3E6 /* AppDelegate.swift */; };
 		D3CCD2421F4CE9D50033D3E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CCD2411F4CE9D50033D3E6 /* ViewController.swift */; };
 		D3CCD2451F4CE9D50033D3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CCD2431F4CE9D50033D3E6 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 /* Begin PBXFileReference section */
 		017458F81DAA033932EA1192 /* Pods-Homework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Homework/Pods-Homework.debug.xcconfig"; sourceTree = "<group>"; };
 		68345D85AC51872113299A81 /* Pods-Homework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework.release.xcconfig"; path = "Pods/Target Support Files/Pods-Homework/Pods-Homework.release.xcconfig"; sourceTree = "<group>"; };
+		D323A9D61F4F484400B784F4 /* Submissions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Submissions.json; sourceTree = "<group>"; };
+		D323A9D81F4F4D2000B784F4 /* Assignments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Assignments.json; sourceTree = "<group>"; };
 		D3CCD23C1F4CE9D50033D3E6 /* Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CCD23F1F4CE9D50033D3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3CCD2411F4CE9D50033D3E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +75,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D323A9D51F4F3A8900B784F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D323A9D81F4F4D2000B784F4 /* Assignments.json */,
+				D323A9D61F4F484400B784F4 /* Submissions.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		D3CCD2331F4CE9D50033D3E6 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +105,7 @@
 		D3CCD23E1F4CE9D50033D3E6 /* Homework */ = {
 			isa = PBXGroup;
 			children = (
+				D323A9D51F4F3A8900B784F4 /* Resources */,
 				D3CCD26A1F4DEC480033D3E6 /* Helpers */,
 				D3CCD2551F4CEFAD0033D3E6 /* Storyboards */,
 				D3CCD2541F4CEF9A0033D3E6 /* APIs */,
@@ -235,6 +249,8 @@
 				D3CCD24A1F4CE9D50033D3E6 /* LaunchScreen.storyboard in Resources */,
 				D3CCD2471F4CE9D50033D3E6 /* Assets.xcassets in Resources */,
 				D3CCD2451F4CE9D50033D3E6 /* Main.storyboard in Resources */,
+				D323A9D71F4F484400B784F4 /* Submissions.json in Resources */,
+				D323A9D91F4F4D2000B784F4 /* Assignments.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
