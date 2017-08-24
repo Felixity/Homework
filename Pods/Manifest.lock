@@ -15,18 +15,21 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - Alamofire (4.5.0)
+  - JGProgressHUD (1.4)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - AFNetworking
   - Alamofire
+  - JGProgressHUD
   - SwiftyJSON
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 136d4b13563fb1fd7404d9dc7f18d39540baf3cd
+PODFILE CHECKSUM: f4e06f4ecd632c8758a0eeb5aa58830cc57b4d7a
 
 COCOAPODS: 1.2.1

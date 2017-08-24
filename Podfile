@@ -9,5 +9,5 @@ target 'Homework' do
   pod 'Alamofire'
   pod 'AFNetworking'
   pod 'SwiftyJSON'
-  
+  pod 'JGProgressHUD'
 end
