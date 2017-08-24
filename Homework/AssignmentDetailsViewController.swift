@@ -14,9 +14,13 @@ class AssignmentDetailsViewController: UIViewController {
     
     var assignment: Assignment!
     fileprivate var submissions: [Submission] = []
+    fileprivate var isMoreDataLoading = true
+    fileprivate let pageLimit = 20
+    fileprivate var currentPage = 1
     
     private lazy var onSubmissionRecived: ([Submission])->() = { result in
-        self.submissions = result
+        self.submissions += result
+        self.isMoreDataLoading = !(self.submissions.count < self.currentPage * self.pageLimit)
         self.tableView.reloadData()
     }
     
@@ -25,9 +29,6 @@ class AssignmentDetailsViewController: UIViewController {
             print(error.localizedDescription)
         }
     }
-    
-    private var currentPage = 1
-    private let pageLimit = 20
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +39,7 @@ class AssignmentDetailsViewController: UIViewController {
         tableView.estimatedRowHeight = 100
         tableView.rowHeight = UITableViewAutomaticDimension
     
-        EdmodoAPI().sharedInstance.fetchSubmissions(page: currentPage, limit: pageLimit, assignmentId: assignment.id, assignmentCreatorId: assignment.creatorId, successCallback: onSubmissionRecived, error: onErrorHandler)
+        loadData()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -47,6 +48,10 @@ class AssignmentDetailsViewController: UIViewController {
                 destination.submission = cell.submission
             }
         }
+    }
+    
+    fileprivate func loadData() {
+        EdmodoAPI().sharedInstance.fetchSubmissions(page: currentPage, limit: pageLimit, assignmentId: assignment.id, assignmentCreatorId: assignment.creatorId, successCallback: onSubmissionRecived, error: onErrorHandler)
     }
 }
 
@@ -82,5 +87,12 @@ extension AssignmentDetailsViewController: UITableViewDataSource, UITableViewDel
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if (submissions.count - indexPath.row == pageLimit) && isMoreDataLoading {
+            currentPage += 1
+            loadData()
+        }
     }
 }

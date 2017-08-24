@@ -13,9 +13,13 @@ class AssignmentsListViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     fileprivate var assignments: [Assignment] = []
+    fileprivate var isMoreDataLoading = true
+    fileprivate let pageLimit = 20
+    fileprivate var currentPage = 1
     
     private lazy var onAssignmentsReceived: ([Assignment])->() = { result in
-        self.assignments = result
+        self.assignments += result
+        self.isMoreDataLoading = !(self.assignments.count < self.currentPage * self.pageLimit)
         self.tableView.reloadData()
     }
     
@@ -24,9 +28,6 @@ class AssignmentsListViewController: UIViewController {
             print(error.localizedDescription)
         }
     }
-    
-    private var currentPage = 1
-    private let pageLimit = 20
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,7 +38,7 @@ class AssignmentsListViewController: UIViewController {
         tableView.estimatedRowHeight = 100
         tableView.rowHeight = UITableViewAutomaticDimension
         
-        EdmodoAPI().sharedInstance.fetchAssignments(page: currentPage, limit: pageLimit, successCallback: onAssignmentsReceived, error: onErrorHandler)
+        loadData()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -46,6 +47,10 @@ class AssignmentsListViewController: UIViewController {
                 destination.assignment = cell.assignment
             }
         }
+    }
+    
+    fileprivate func loadData() {
+        EdmodoAPI().sharedInstance.fetchAssignments(page: currentPage, limit: pageLimit, successCallback: onAssignmentsReceived, error: onErrorHandler)
     }
 }
 
@@ -62,5 +67,12 @@ extension AssignmentsListViewController: UITableViewDelegate, UITableViewDataSou
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if (assignments.count - indexPath.row == pageLimit) && isMoreDataLoading {
+            currentPage += 1
+            loadData()
+        }
     }
 }
