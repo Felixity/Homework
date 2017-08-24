@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JGProgressHUD
 
 class AssignmentsListViewController: PullRefreshViewController {
 
@@ -18,6 +19,7 @@ class AssignmentsListViewController: PullRefreshViewController {
     fileprivate var currentPage = 1
     
     private lazy var onAssignmentsReceived: ([Assignment])->() = { result in
+        self.loadingIndicatorView?.dismiss()
         if self.refreshControl.isRefreshing {
             self.assignments = []
             
@@ -33,12 +35,15 @@ class AssignmentsListViewController: PullRefreshViewController {
     
     private lazy var onErrorHandler: ((Error?)->())? = { error in
         if let error = error {
+            self.loadingIndicatorView?.dismiss()
             self.errorMessageLabel.text = error.localizedDescription
             self.errorMessageView.isHidden = false
             
             self.refreshControl.endRefreshing()
         }
     }
+    
+    private let loadingIndicatorView = JGProgressHUD.init(style: .light)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,6 +55,8 @@ class AssignmentsListViewController: PullRefreshViewController {
         tableView.rowHeight = UITableViewAutomaticDimension
         
         tableView.insertSubview(refreshControl, at: 0)
+        
+        loadingIndicatorView?.show(in: tableView)
         
         loadData()
     }
