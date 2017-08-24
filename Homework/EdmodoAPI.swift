@@ -34,12 +34,19 @@ class EdmodoAPI {
         Alamofire.request(stringURL, method: .get, parameters: parameters, encoding: URLEncoding.default, headers: [:]).validate().responseJSON(completionHandler: { response in
             switch response.result {
                 case .success(let value):
-                    let jsonArray = JSON(value)
+                    let resultArray = JSON(value)
                     var assignments: [Assignment] = []
                     
-                    for json in jsonArray.arrayValue {
+                    // For test purpose uncomment the following block and make the resultArray variable mutable!!!!!!!!!
+/*
+                    if let testArray = self.getExtraJSONData(from: "Assignments", with: "json") {
+                        resultArray = try! resultArray.merged(with: testArray)
+                    }
+*/
+                    for json in resultArray.arrayValue {
                         assignments.append(Assignment(json: json))
                     }
+                    
                     successCallback(assignments)
             
                 case .failure(let errorResponse):
@@ -59,10 +66,16 @@ class EdmodoAPI {
         Alamofire.request(stringURL, method: .get, parameters: parameters, encoding: URLEncoding.default, headers: [:]).validate().responseJSON { response in
             switch response.result {
             case .success(let value):
-                let jsonArray = JSON(value)
+                let resultArray = JSON(value)
                 var submissions: [Submission] = []
                 
-                for json in jsonArray.arrayValue {
+                // For test purpose uncomment the following block and make the resultArray variable mutable!!!!!!!!!
+/*
+                if let testArray = self.getExtraJSONData(from: "Submissions", with: "json") {
+                    resultArray = try! resultArray.merged(with: testArray)
+                }
+*/
+                for json in resultArray.arrayValue {
                     submissions.append(Submission(student: Student(json: json), json: json))
                 }
                 successCallback(submissions)
@@ -91,5 +104,21 @@ class EdmodoAPI {
         }
         
         return parameters
+    }
+
+    private func getExtraJSONData(from fileName: String, with fileExtension: String) -> JSON? {
+        
+        var json: JSON?
+        
+        /* Find the path of the file */
+        if let filePath = Bundle.main.path(forResource: fileName, ofType: fileExtension) {
+            
+            /* Load it's content in a var */
+            if let fileContent = try? String(contentsOfFile: filePath) {
+                json = JSON(parseJSON: fileContent)
+            }
+        }
+        
+        return json
     }
 }
