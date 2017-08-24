@@ -1,0 +1,992 @@
+ [
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Choose an organ in the digestive system, and write a short description of what it does.",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800159,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:22:32.000Z",
+  "grade_percentage": null,
+  "title": "The Digestive System",
+  "due_at": "2016-06-09T00:22:32.000Z",
+  "message_id": 436803081,
+  "timeline_id": "assignment:24800159:73240721",
+  "url": "https://api.edmodo.com/assignments/24800159"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Please write up your thoughts about our recent field trip the explore the Solar System. Each student should focus on the planet they visited!",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800143,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:20:39.000Z",
+  "grade_percentage": null,
+  "title": "The Solar System",
+  "due_at": "2016-06-09T00:20:38.000Z",
+  "message_id": 436802665,
+  "timeline_id": "assignment:24800143:73240721",
+  "url": "https://api.edmodo.com/assignments/24800143"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Choose an organ in the digestive system, and write a short description of what it does.",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800159,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:22:32.000Z",
+  "grade_percentage": null,
+  "title": "The Digestive System",
+  "due_at": "2016-06-09T00:22:32.000Z",
+  "message_id": 436803081,
+  "timeline_id": "assignment:24800159:73240721",
+  "url": "https://api.edmodo.com/assignments/24800159"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Please write up your thoughts about our recent field trip the explore the Solar System. Each student should focus on the planet they visited!",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800143,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:20:39.000Z",
+  "grade_percentage": null,
+  "title": "The Solar System",
+  "due_at": "2016-06-09T00:20:38.000Z",
+  "message_id": 436802665,
+  "timeline_id": "assignment:24800143:73240721",
+  "url": "https://api.edmodo.com/assignments/24800143"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Choose an organ in the digestive system, and write a short description of what it does.",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800159,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:22:32.000Z",
+  "grade_percentage": null,
+  "title": "The Digestive System",
+  "due_at": "2016-06-09T00:22:32.000Z",
+  "message_id": 436803081,
+  "timeline_id": "assignment:24800159:73240721",
+  "url": "https://api.edmodo.com/assignments/24800159"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Please write up your thoughts about our recent field trip the explore the Solar System. Each student should focus on the planet they visited!",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800143,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:20:39.000Z",
+  "grade_percentage": null,
+  "title": "The Solar System",
+  "due_at": "2016-06-09T00:20:38.000Z",
+  "message_id": 436802665,
+  "timeline_id": "assignment:24800143:73240721",
+  "url": "https://api.edmodo.com/assignments/24800143"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Choose an organ in the digestive system, and write a short description of what it does.",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800159,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:22:32.000Z",
+  "grade_percentage": null,
+  "title": "The Digestive System",
+  "due_at": "2016-06-09T00:22:32.000Z",
+  "message_id": 436803081,
+  "timeline_id": "assignment:24800159:73240721",
+  "url": "https://api.edmodo.com/assignments/24800159"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Please write up your thoughts about our recent field trip the explore the Solar System. Each student should focus on the planet they visited!",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800143,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:20:39.000Z",
+  "grade_percentage": null,
+  "title": "The Solar System",
+  "due_at": "2016-06-09T00:20:38.000Z",
+  "message_id": 436802665,
+  "timeline_id": "assignment:24800143:73240721",
+  "url": "https://api.edmodo.com/assignments/24800143"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Choose an organ in the digestive system, and write a short description of what it does.",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800159,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:22:32.000Z",
+  "grade_percentage": null,
+  "title": "The Digestive System",
+  "due_at": "2016-06-09T00:22:32.000Z",
+  "message_id": 436803081,
+  "timeline_id": "assignment:24800159:73240721",
+  "url": "https://api.edmodo.com/assignments/24800159"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Please write up your thoughts about our recent field trip the explore the Solar System. Each student should focus on the planet they visited!",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800143,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:20:39.000Z",
+  "grade_percentage": null,
+  "title": "The Solar System",
+  "due_at": "2016-06-09T00:20:38.000Z",
+  "message_id": 436802665,
+  "timeline_id": "assignment:24800143:73240721",
+  "url": "https://api.edmodo.com/assignments/24800143"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Choose an organ in the digestive system, and write a short description of what it does.",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800159,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:22:32.000Z",
+  "grade_percentage": null,
+  "title": "The Digestive System",
+  "due_at": "2016-06-09T00:22:32.000Z",
+  "message_id": 436803081,
+  "timeline_id": "assignment:24800159:73240721",
+  "url": "https://api.edmodo.com/assignments/24800159"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Please write up your thoughts about our recent field trip the explore the Solar System. Each student should focus on the planet they visited!",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800143,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:20:39.000Z",
+  "grade_percentage": null,
+  "title": "The Solar System",
+  "due_at": "2016-06-09T00:20:38.000Z",
+  "message_id": 436802665,
+  "timeline_id": "assignment:24800143:73240721",
+  "url": "https://api.edmodo.com/assignments/24800143"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Choose an organ in the digestive system, and write a short description of what it does.",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800159,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:22:32.000Z",
+  "grade_percentage": null,
+  "title": "The Digestive System",
+  "due_at": "2016-06-09T00:22:32.000Z",
+  "message_id": 436803081,
+  "timeline_id": "assignment:24800159:73240721",
+  "url": "https://api.edmodo.com/assignments/24800159"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Please write up your thoughts about our recent field trip the explore the Solar System. Each student should focus on the planet they visited!",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800143,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:20:39.000Z",
+  "grade_percentage": null,
+  "title": "The Solar System",
+  "due_at": "2016-06-09T00:20:38.000Z",
+  "message_id": 436802665,
+  "timeline_id": "assignment:24800143:73240721",
+  "url": "https://api.edmodo.com/assignments/24800143"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Choose an organ in the digestive system, and write a short description of what it does.",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800159,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:22:32.000Z",
+  "grade_percentage": null,
+  "title": "The Digestive System",
+  "due_at": "2016-06-09T00:22:32.000Z",
+  "message_id": 436803081,
+  "timeline_id": "assignment:24800159:73240721",
+  "url": "https://api.edmodo.com/assignments/24800159"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Please write up your thoughts about our recent field trip the explore the Solar System. Each student should focus on the planet they visited!",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800143,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:20:39.000Z",
+  "grade_percentage": null,
+  "title": "The Solar System",
+  "due_at": "2016-06-09T00:20:38.000Z",
+  "message_id": 436802665,
+  "timeline_id": "assignment:24800143:73240721",
+  "url": "https://api.edmodo.com/assignments/24800143"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Choose an organ in the digestive system, and write a short description of what it does.",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800159,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:22:32.000Z",
+  "grade_percentage": null,
+  "title": "The Digestive System",
+  "due_at": "2016-06-09T00:22:32.000Z",
+  "message_id": 436803081,
+  "timeline_id": "assignment:24800159:73240721",
+  "url": "https://api.edmodo.com/assignments/24800159"
+  },
+  {
+  "past_due": true,
+  "default_total": null,
+  "lock_after_due": false,
+  "recipients": {
+  "groups": [
+             {
+             "id": 14060299,
+             "description": null,
+             "num_members": 7,
+             "num_small_groups": null,
+             "parent_cannot_view_posts": false,
+             "url": "https://api.edmodo.com/groups/14060299",
+             "group_user_type": "student",
+             "archived": false,
+             "title": "Magic School Bus",
+             "parent_group_id": null,
+             "parent_read_only": true,
+             "master_read_only": false
+             }
+             ]
+  },
+  "description": "Please write up your thoughts about our recent field trip the explore the Solar System. Each student should focus on the planet they visited!",
+  "creator": {
+  "id": 73240721,
+  "user_title": null,
+  "avatars": {
+  "small": "https://api.edmodo.com/users/73240721/avatar?type=small&u=azsdrk9oevcjuqdrxp0rshnql",
+  "large": "https://api.edmodo.com/users/73240721/avatar?type=large&u=azsdrk9oevcjuqdrxp0rshnql"
+  },
+  "vanity": "alerie-rizzle",
+  "url": "https://api.edmodo.com/users/73240721",
+  "type": "teacher",
+  "locale": "en",
+  "first_name": "Valerie",
+  "username": "thefriz123",
+  "utc_offset": -28800,
+  "last_name": "Frizzle",
+  "time_zone": "America/Los_Angeles"
+  },
+  "post_at": null,
+  "reviewed": false,
+  "attachments": {},
+  "scheduled_message_id": 0,
+  "viewable_in_gradebook": null,
+  "id": 24800143,
+  "turned_in_count": null,
+  "created_at": "2015-06-09T00:20:39.000Z",
+  "grade_percentage": null,
+  "title": "The Solar System",
+  "due_at": "2016-06-09T00:20:38.000Z",
+  "message_id": 436802665,
+  "timeline_id": "assignment:24800143:73240721",
+  "url": "https://api.edmodo.com/assignments/24800143"
+  }
+  ]
