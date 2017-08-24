@@ -51,13 +51,24 @@ class AssignmentDetailsViewController: PullRefreshViewController {
         
         tableView.insertSubview(refreshControl, at: 0)
     
+        setNavigationBarTitle()
+        
         loadData()
+    }
+    
+    private func setNavigationBarTitle() {
+        // Resize the title in navigation bar dynamically
+        let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 40))
+        titleLabel.text = assignment.title
+        titleLabel.adjustsFontSizeToFitWidth = true
+        navigationItem.titleView = titleLabel
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowDetailsSubmission" {
             if let destination = segue.destination as? SubmissionDetailsViewController, let cell = sender as? StudentTableViewCell {
                 destination.submission = cell.submission
+                destination.navigationBarTitle = assignment.title
             }
         }
     }

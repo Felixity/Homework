@@ -17,10 +17,13 @@ class SubmissionDetailsViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     
     var submission: Submission!
+    var navigationBarTitle: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setNavigationBarTitle()
+        
         updateUI()
     }
     
@@ -31,5 +34,13 @@ class SubmissionDetailsViewController: UIViewController {
         if let url = URL(string: submission.student.avatarLarge) {
             avatarImageView.setImageWith(url)
         }
+    }
+    
+    private func setNavigationBarTitle() {
+        // Resize the title in navigation bar dynamically
+        let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 40))
+        titleLabel.text = navigationBarTitle
+        titleLabel.adjustsFontSizeToFitWidth = true
+        navigationItem.titleView = titleLabel
     }
 }
