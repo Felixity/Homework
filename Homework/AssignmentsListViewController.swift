@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AssignmentsListViewController: UIViewController {
+class AssignmentsListViewController: PullRefreshViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -18,14 +18,25 @@ class AssignmentsListViewController: UIViewController {
     fileprivate var currentPage = 1
     
     private lazy var onAssignmentsReceived: ([Assignment])->() = { result in
+        if self.refreshControl.isRefreshing {
+            self.assignments = []
+            
+            self.errorMessageLabel.text = nil
+            self.errorMessageView.isHidden = true
+            self.refreshControl.endRefreshing()
+        }
         self.assignments += result
         self.isMoreDataLoading = !(self.assignments.count < self.currentPage * self.pageLimit)
+        
         self.tableView.reloadData()
     }
     
     private lazy var onErrorHandler: ((Error?)->())? = { error in
         if let error = error {
-            print(error.localizedDescription)
+            self.errorMessageLabel.text = error.localizedDescription
+            self.errorMessageView.isHidden = false
+            
+            self.refreshControl.endRefreshing()
         }
     }
     
@@ -37,6 +48,8 @@ class AssignmentsListViewController: UIViewController {
         
         tableView.estimatedRowHeight = 100
         tableView.rowHeight = UITableViewAutomaticDimension
+        
+        tableView.insertSubview(refreshControl, at: 0)
         
         loadData()
     }
@@ -51,6 +64,11 @@ class AssignmentsListViewController: UIViewController {
     
     fileprivate func loadData() {
         EdmodoAPI().sharedInstance.fetchAssignments(page: currentPage, limit: pageLimit, successCallback: onAssignmentsReceived, error: onErrorHandler)
+    }
+    
+    override func loadDataAfterPullRefresh() {
+        currentPage = 1
+        loadData()
     }
 }
 

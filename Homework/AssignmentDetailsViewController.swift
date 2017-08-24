@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AssignmentDetailsViewController: UIViewController {
+class AssignmentDetailsViewController: PullRefreshViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -19,6 +19,13 @@ class AssignmentDetailsViewController: UIViewController {
     fileprivate var currentPage = 1
     
     private lazy var onSubmissionRecived: ([Submission])->() = { result in
+        if self.refreshControl.isRefreshing {
+            self.submissions = []
+            
+            self.errorMessageLabel.text = nil
+            self.errorMessageView.isHidden = true
+            self.refreshControl.endRefreshing()
+        }
         self.submissions += result
         self.isMoreDataLoading = !(self.submissions.count < self.currentPage * self.pageLimit)
         self.tableView.reloadData()
@@ -26,7 +33,10 @@ class AssignmentDetailsViewController: UIViewController {
     
     private lazy var onErrorHandler: ((Error?) -> ())? = { error in
         if let error = error {
-            print(error.localizedDescription)
+            self.errorMessageLabel.text = error.localizedDescription
+            self.errorMessageView.isHidden = false
+            
+            self.refreshControl.endRefreshing()
         }
     }
     
@@ -38,6 +48,8 @@ class AssignmentDetailsViewController: UIViewController {
         
         tableView.estimatedRowHeight = 100
         tableView.rowHeight = UITableViewAutomaticDimension
+        
+        tableView.insertSubview(refreshControl, at: 0)
     
         loadData()
     }
@@ -52,6 +64,11 @@ class AssignmentDetailsViewController: UIViewController {
     
     fileprivate func loadData() {
         EdmodoAPI().sharedInstance.fetchSubmissions(page: currentPage, limit: pageLimit, assignmentId: assignment.id, assignmentCreatorId: assignment.creatorId, successCallback: onSubmissionRecived, error: onErrorHandler)
+    }
+    
+    override func loadDataAfterPullRefresh() {
+        currentPage = 1
+        loadData()
     }
 }
 

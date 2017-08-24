@@ -10,6 +10,7 @@
 		227F33DDD65284DB5704BB14 /* Pods_Homework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA0F076CDDC69041477B0A7 /* Pods_Homework.framework */; };
 		D323A9D71F4F484400B784F4 /* Submissions.json in Resources */ = {isa = PBXBuildFile; fileRef = D323A9D61F4F484400B784F4 /* Submissions.json */; };
 		D323A9D91F4F4D2000B784F4 /* Assignments.json in Resources */ = {isa = PBXBuildFile; fileRef = D323A9D81F4F4D2000B784F4 /* Assignments.json */; };
+		D323A9DB1F4F5DDD00B784F4 /* PullRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D323A9DA1F4F5DDD00B784F4 /* PullRefreshViewController.swift */; };
 		D3CCD2401F4CE9D50033D3E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CCD23F1F4CE9D50033D3E6 /* AppDelegate.swift */; };
 		D3CCD2421F4CE9D50033D3E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CCD2411F4CE9D50033D3E6 /* ViewController.swift */; };
 		D3CCD2451F4CE9D50033D3E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CCD2431F4CE9D50033D3E6 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		68345D85AC51872113299A81 /* Pods-Homework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework.release.xcconfig"; path = "Pods/Target Support Files/Pods-Homework/Pods-Homework.release.xcconfig"; sourceTree = "<group>"; };
 		D323A9D61F4F484400B784F4 /* Submissions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Submissions.json; sourceTree = "<group>"; };
 		D323A9D81F4F4D2000B784F4 /* Assignments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Assignments.json; sourceTree = "<group>"; };
+		D323A9DA1F4F5DDD00B784F4 /* PullRefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRefreshViewController.swift; sourceTree = "<group>"; };
 		D3CCD23C1F4CE9D50033D3E6 /* Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3CCD23F1F4CE9D50033D3E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3CCD2411F4CE9D50033D3E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				D3CCD2561F4CF0550033D3E6 /* AssignmentsListViewController.swift */,
 				D3CCD2581F4CF09D0033D3E6 /* AssignmentDetailsViewController.swift */,
 				D3CCD25A1F4CF0BA0033D3E6 /* SubmissionDetailsViewController.swift */,
+				D323A9DA1F4F5DDD00B784F4 /* PullRefreshViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				D3CCD2421F4CE9D50033D3E6 /* ViewController.swift in Sources */,
 				D3CCD2611F4D31B40033D3E6 /* AssignmentTableViewCell.swift in Sources */,
 				D3CCD26C1F4DEC610033D3E6 /* Extensions.swift in Sources */,
+				D323A9DB1F4F5DDD00B784F4 /* PullRefreshViewController.swift in Sources */,
 				D3CCD25B1F4CF0BA0033D3E6 /* SubmissionDetailsViewController.swift in Sources */,
 				D3CCD2591F4CF09D0033D3E6 /* AssignmentDetailsViewController.swift in Sources */,
 				D3CCD2671F4D66660033D3E6 /* StudentTableViewCell.swift in Sources */,
