@@ -13,6 +13,9 @@ class Student {
     var firstName: String
     var lastName: String
     var avatarLarge: String
+    var fullName: String {
+        return firstName + " " + lastName
+    }
     
     init(json: JSON) {
         self.firstName = json["creator"]["first_name"].stringValue
