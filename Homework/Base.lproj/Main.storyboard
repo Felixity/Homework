@@ -102,7 +102,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="wRI-D5-tFf">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="wRI-D5-tFf">
                                 <rect key="frame" x="16" y="80" width="343" height="572.5"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Add title here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YfV-7h-qpM">
@@ -113,29 +113,24 @@
                                     </textField>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wai-nS-zhO">
                                         <rect key="frame" x="0.0" y="46" width="343" height="258"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="wai-nS-zhO" secondAttribute="height" multiplier="343:258" id="VxM-yh-5Kj"/>
-                                            <constraint firstAttribute="height" constant="258" id="gEG-5W-zA1"/>
-                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="yes"/>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Due date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ff-gh-REU">
-                                        <rect key="frame" x="0.0" y="320" width="69.5" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="320" width="343" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="OkH-Lr-IDC">
-                                        <rect key="frame" x="0.0" y="356.5" width="320" height="216"/>
+                                        <rect key="frame" x="0.0" y="356.5" width="343" height="216"/>
                                         <date key="date" timeIntervalSinceReferenceDate="525382553.28324503">
                                             <!--2017-08-25 19:35:53 +0000-->
                                         </date>
                                     </datePicker>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="wai-nS-zhO" firstAttribute="leading" secondItem="wRI-D5-tFf" secondAttribute="leading" id="aBh-2B-oYX"/>
                                     <constraint firstItem="YfV-7h-qpM" firstAttribute="leading" secondItem="wRI-D5-tFf" secondAttribute="leading" id="eAg-Pg-ZPY"/>
-                                    <constraint firstAttribute="trailing" secondItem="wai-nS-zhO" secondAttribute="trailing" id="mt7-ri-hLS"/>
                                     <constraint firstAttribute="trailing" secondItem="YfV-7h-qpM" secondAttribute="trailing" id="trq-hU-jBg"/>
                                 </constraints>
                             </stackView>
