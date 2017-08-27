@@ -28,7 +28,7 @@ class SubmissionDetailsViewController: UIViewController {
     }
     
     private func updateUI() {
-        nameLabel.text = submission.student.firstName + " " + submission.student.lastName
+        nameLabel.text = submission.student.fullName
         dateLabel.text = "turned in " + submission.date
         descriptionLabel.text =  submission.content
         if let url = URL(string: submission.student.avatarLarge) {

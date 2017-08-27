@@ -28,7 +28,7 @@ class StudentTableViewCell: UITableViewCell {
         submissionDateLabel.text = nil
         
         if let submission = submission {
-            nameLabel.text = submission.student.firstName + " " + submission.student.lastName
+            nameLabel.text = submission.student.fullName
             submissionDateLabel.text = "turned in " + submission.date
             if let url = URL(string: submission.student.avatarLarge) {
                 avatarImageView.setImageWith(url)
