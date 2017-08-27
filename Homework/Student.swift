@@ -10,19 +10,13 @@ import Foundation
 import SwiftyJSON
 
 class Student {
-    var firstName: String {
-        return json["creator"]["first_name"].stringValue
-    }
-    var lastName: String {
-        return json["creator"]["last_name"].stringValue
-    }
-    var avatarLarge: String {
-        return json["creator"]["avatars"]["large"].stringValue
-    }
-    
-    private var json: JSON
+    var firstName: String
+    var lastName: String
+    var avatarLarge: String
     
     init(json: JSON) {
-        self.json = json
+        self.firstName = json["creator"]["first_name"].stringValue
+        self.lastName = json["creator"]["last_name"].stringValue
+        self.avatarLarge = json["creator"]["avatars"]["large"].stringValue
     }
 }
