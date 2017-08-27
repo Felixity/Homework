@@ -67,6 +67,14 @@ class AssignmentsListViewController: PullRefreshViewController {
                 destination.assignment = cell.assignment
             }
         }
+        else if segue.identifier == "ComposeNewAssignment" {
+            if let destination = segue.destination as? UINavigationController {
+                if let viewController = destination.topViewController as? ComposeAssignmentViewController {
+                    viewController.delegate = self
+                    viewController.creatorId = assignments.count > 0 ? assignments[0].creatorId : nil
+                }
+            }
+        }
     }
     
     fileprivate func loadData() {
@@ -99,5 +107,12 @@ extension AssignmentsListViewController: UITableViewDelegate, UITableViewDataSou
             currentPage += 1
             loadData()
         }
+    }
+}
+
+extension AssignmentsListViewController: ComposeAssignmentViewControllerDelegate {
+    func post(newAssignment: Assignment) {
+        assignments.append(newAssignment)
+        tableView.reloadData()
     }
 }
