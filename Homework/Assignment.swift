@@ -10,27 +10,25 @@ import Foundation
 import SwiftyJSON
 
 class Assignment {
-    
-    var title: String {
-        return json["title"].stringValue
-    }
-    var content: String {
-        return json["description"].stringValue
-    }
-    var dueDate: String {
-        let stringDate = json["due_at"].stringValue
-        return  stringDate.convertDate(to: "MMM dd, YYYY")
-    }
-    var id: Int {
-        return json["id"].intValue
-    }
-    var creatorId: Int {
-        return json["creator"]["id"].intValue
-    }
-    
-    private var json: JSON
+    var title: String
+    var content: String
+    var dueDate: String
+    var id: Int
+    var creatorId: Int
     
     init(json: JSON) {
-        self.json = json
+        self.title = json["title"].stringValue
+        self.content = json["description"].stringValue
+        self.dueDate = json["due_at"].stringValue.convertDate(to: "MMM dd, YYYY")
+        self.id = json["id"].intValue
+        self.creatorId = json["creator"]["id"].intValue
+    }
+    
+    init(title: String, content: String, dueDate: String, id: Int, creatorId: Int) {
+        self.title = title
+        self.content = content
+        self.dueDate = dueDate
+        self.id = id
+        self.creatorId = creatorId
     }
 }
