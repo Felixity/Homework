@@ -11,18 +11,12 @@ import SwiftyJSON
 
 class Submission {
     var student: Student
-    var content: String {
-        return json["content"].stringValue
-    }
-    var date: String {
-        let stringDate = json["submitted_at"].stringValue
-        return stringDate.convertDate(to: "MMM dd, YYYY")
-    }
-    
-    private var json: JSON
+    var content: String
+    var date: String
     
     init(student: Student, json: JSON) {
         self.student = student
-        self.json = json
+        self.content = json["content"].stringValue
+        self.date = json["submitted_at"].stringValue.convertDate(to: "MMM dd, YYYY")
     }
 }
