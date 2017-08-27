@@ -1,6 +1,6 @@
 # Project 1 - Homework
 
-Homework is an app that allows teachers to browse homework assignments and submissions. It's using the Edmodo APIs. For demo purpose of pagination feature, dummy data were added to the JSON array.
+Homework is an app that allows teachers to browse homework assignments and submissions. It's using the Edmodo APIs. For demo purposes of pagination feature, dummy data was added to the JSON array.
 
 ## User Stories
 
@@ -14,7 +14,7 @@ The following **optional** features are implemented:
 
 - [X] pull to refresh the list of assignments and submissions 
 - [X] Load more assignments when scrolling to the bottom 
-- [ ] Add a button that shows a view to create a new assignment. The assignment should be added to the assignment view and be selectable. The new assignment should only be created on the client (no API call to create the assignment on the server). 
+- [X] Add a button that shows a view to create a new assignment. The assignment should be added to the assignment view and be selectable. The new assignment should only be created on the client (no API call to create the assignment on the server). 
 
 The following **additional** features are implemented:
 
@@ -25,6 +25,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='http://i.imgur.com/eJAwrtx.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/L39K6bp.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
