@@ -1,6 +1,6 @@
 # Project 1 - Homework
 
-Homework is an app that allows teachers to browse homework assignments and submissions. It's using the Edmodo APIs. For demo purposes of pagination feature, dummy data was added to the JSON array.
+Homework is an app that allows teachers to browse homework assignments and submissions. It's using the Edmodo APIs. For demo purposes of pagination feature, dummy data was added to the API's response.
 
 ## User Stories
 
