@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ComposeAssignmentViewControllerDelegate {
+protocol ComposeAssignmentViewControllerDelegate: class {
     func post(newAssignment: Assignment)
 }
 
@@ -18,7 +18,7 @@ class ComposeAssignmentViewController: UIViewController {
     @IBOutlet weak var descriptionTextView: UITextView!
     @IBOutlet weak var dueDatePicker: UIDatePicker!
     
-    var delegate: ComposeAssignmentViewControllerDelegate?
+    weak var delegate: ComposeAssignmentViewControllerDelegate?
     var creatorId: Int?
     
     override func viewDidLoad() {
