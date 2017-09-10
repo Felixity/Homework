@@ -40,7 +40,7 @@ class ComposeAssignmentViewController: UIViewController {
     }
     
     @IBAction func onCancelPress(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
+        presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func onPostPress(_ sender: UIBarButtonItem) {
@@ -53,7 +53,7 @@ class ComposeAssignmentViewController: UIViewController {
             titleTextField.resignFirstResponder()
             
             guard let creatorId = creatorId  else {
-                dismiss(animated: true, completion: nil)
+                presentingViewController?.dismiss(animated: true, completion: nil)
                 return
             }
             
